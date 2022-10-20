@@ -8,7 +8,12 @@ Kelas: TI.22.A3
 
 # Latihan 1
 
-Pertama kita akan menjalankan perintah yang palih dasar yaitu 'print( )', untuk string gunakan tanda pentik seperti 'print(" ")'.
+Pertama kita akan menjalankan perintah yang paling dasar yaitu print contohnya
+
+
+```
+print ("Nama saya Alif Nur Fathli Amarta")
+```
 
 ![image](https://user-images.githubusercontent.com/115516820/196467092-3a5448de-6bfe-4e84-8ef8-dfd6274cd19d.png)
 
