@@ -15,11 +15,13 @@ Pertama kita akan menjalankan perintah yang paling dasar yaitu print contohnya
 print ("Nama saya Alif Nur Fathli Amarta")
 ```
 
-![image](https://user-images.githubusercontent.com/115516820/196467092-3a5448de-6bfe-4e84-8ef8-dfd6274cd19d.png)
+![image](https://user-images.githubusercontent.com/115516820/196885152-11b734b7-960d-4dea-9611-d1288de0bef9.png)
+
 
 Lalu hasil outputnya akan menghasilkan kata yang diketik.
 
-![image](https://user-images.githubusercontent.com/115516820/196467593-c2d60a75-9dd0-4df1-80da-6b941088a0cf.png)
+![image](https://user-images.githubusercontent.com/115516820/196885232-27967f75-efc4-45fa-afa5-3e246f286e26.png)
+
 
 # Latihan 2 
 
@@ -27,15 +29,18 @@ Setelah itu kita akan pengoperasian angka contoh nya penjumlahan.
 
 Pertama masukkan angka terlebih dulu. 
 
-![image](https://user-images.githubusercontent.com/115516820/196470091-6595f434-1597-43cb-8a19-27ef7deab0ff.png)
+![image](https://user-images.githubusercontent.com/115516820/196885291-acdab0dd-e110-45d1-aede-1ea44fac719c.png)
 
-lalu gunakan perintah print
+lalu gunakan perintah print 
 
-![image](https://user-images.githubusercontent.com/115516820/196470712-77fc2483-c842-4188-921c-7b0be87ecfa4.png)
+```
+print("hasil penjumlahan a+b = ",a+b)
+```
 
 Hasilnya:
 
-![image](https://user-images.githubusercontent.com/115516820/196472277-5db856ab-1a2a-4743-9203-f28819937da4.png)
+![image](https://user-images.githubusercontent.com/115516820/196885684-124f6382-fc58-4a41-827a-726eb65662ff.png)
+
 
 # Latihan 3
 
@@ -43,17 +48,32 @@ Kita akan mempelajari input,konversi nilai variable,format
 
 Python juga mempunyai fungsi 'input( )' cara penggunaannya adalah
 
-![image](https://user-images.githubusercontent.com/115516820/196474042-c376a90a-640c-4e2f-b335-adfd38c61196.png)
+```
+a = input("masukkan nilai a: ")
+b = input("masukkan nilai b: ")
+```
 
-lalu konversi kan variable nya menjadi angka integer, dengan perintah 'int( )'
+print hasil operasi kedua variable dengan string format
 
-![image](https://user-images.githubusercontent.com/115516820/196477440-3fd3ce5e-87bc-4769-8975-fb0438ba1745.png)
-
-print hasil operasi kedua variable dengan string format 
-
-![image](https://user-images.githubusercontent.com/115516820/196479369-2c30fe8f-659f-4452-937b-4a48d6666170.png)
+```
+print("Hasil penggabung {1}+{0}=%s".format(a,b) %(a+b))
+```
 
 format digunakan untuk menggabungkan variable ke string. operator '%' selain digunakan untuk string formatting, operator ini juga digunakan untuk menghitung operasi 'sisa bagi'
 
+konversikan nilai variable agar nilai variable nya diubah menjadi integer dengan perintah int( ) contohnya:
+
+```
+a = int(a)
+b = int(b)
+```
+
+lalu cetak lagi dengan string formatting
+
+![image](https://user-images.githubusercontent.com/115516820/196886768-0a483ec9-76b8-4b00-8e9c-a7acbd1908d7.png)
+
+outputnya akan menghasilkan:
+
+![image](https://user-images.githubusercontent.com/115516820/196886945-fb37c05e-56d1-4362-877b-40a80f13c1cf.png)
 
 Sekian dari saya, Jika ada yang salah mohon dimaafkan
