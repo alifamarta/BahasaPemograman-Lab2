@@ -7,7 +7,7 @@ print("Variabel a =", a)
 print("Variabel b =",b)
 
 # cetak hasil operasi kedua variable dengan string format
-print("Hasil penggabung {1}&{0}=%d".format(a,b) %(a&b))
+print("Hasil penggabung {1}&{0}=%s".format(a,b) %(a&b))
 
 #konversi nilai variable
 a = int(a)
