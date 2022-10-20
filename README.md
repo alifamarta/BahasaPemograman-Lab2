@@ -4,16 +4,15 @@ NIM: 312210326
 
 Kelas: TI.22.A3
 
+---
+
 # Latihan Bahasa Pemograman menggunakan Python 
 
-# Latihan 1
+## Latihan 1
 
 Pertama kita akan menjalankan perintah yang paling dasar yaitu print contohnya
 
-
-```
-print ("Nama saya Alif Nur Fathli Amarta")
-```
+    print ("Nama saya Alif Nur Fathli Amarta")
 
 ![image](https://user-images.githubusercontent.com/115516820/196885152-11b734b7-960d-4dea-9611-d1288de0bef9.png)
 
@@ -22,8 +21,9 @@ Lalu hasil outputnya akan menghasilkan kata yang diketik.
 
 ![image](https://user-images.githubusercontent.com/115516820/196885232-27967f75-efc4-45fa-afa5-3e246f286e26.png)
 
+---
 
-# Latihan 2 
+## Latihan 2 
 
 Setelah itu kita akan pengoperasian angka contoh nya penjumlahan.
 
@@ -33,16 +33,15 @@ Pertama masukkan angka terlebih dulu.
 
 lalu gunakan perintah print 
 
-```
-print("hasil penjumlahan a+b = ",a+b)
-```
+    print("hasil penjumlahan a+b = ",a+b)
 
 Hasilnya:
 
 ![image](https://user-images.githubusercontent.com/115516820/196885684-124f6382-fc58-4a41-827a-726eb65662ff.png)
 
+---
 
-# Latihan 3
+## Latihan 3
 
 Kita akan mempelajari input,konversi nilai variable,format 
 
@@ -55,9 +54,7 @@ b = input("masukkan nilai b: ")
 
 print hasil operasi kedua variable dengan string format
 
-```
-print("Hasil penggabung {1}+{0}=%s".format(a,b) %(a+b))
-```
+    print("Hasil penggabung {1}+{0}=%s".format(a,b) %(a+b))
 
 format digunakan untuk menggabungkan variable ke string. operator '%' selain digunakan untuk string formatting, operator ini juga digunakan untuk menghitung operasi 'sisa bagi'
 
@@ -68,9 +65,10 @@ a = int(a)
 b = int(b)
 ```
 
-lalu cetak lagi dengan string formatting
+lalu print lagi dengan string formatting
 
-![image](https://user-images.githubusercontent.com/115516820/196886768-0a483ec9-76b8-4b00-8e9c-a7acbd1908d7.png)
+    print("Hasil penjumlahan {1}+{0}=%d".format(a,b) %(a+b))
+    print("Hasil pembagian {1}/{0}=%d.".format(a,b) %(a/b))
 
 outputnya akan menghasilkan:
 
